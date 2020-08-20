@@ -1,7 +1,7 @@
 # Neural-Network
-Implementation of basic neural network concepts in python.  
+Implementation of basic neural network concepts in python. :brain:  
 
-With this implementation, you can quickly build and train a neural network.  
+With this implementation, you can quickly build and train a neural network. :relaxed:  
 
 This implementation consists of:  
 - vectorized forward propagation and backpropagation  
@@ -37,6 +37,6 @@ accuracy:  74.7 %
 
 ---
 ### How To Use:
-You need to install numpy and scipy.  
+You need to install numpy and scipy. :grimacing: really?  
 The input files should have been saved in numpy format.  
 Both data and labels should have two dimensions, and each training example should be one row.  
