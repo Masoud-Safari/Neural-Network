@@ -11,12 +11,13 @@ This implementation consists of:
 ---
 ### Sample Code
 A neural network with 3 layers (input: 784 units, hidden layer: 50 units, output: 10 units), and lambda = 0.1.  
+Trained for 1000 iterations.  
 The num_class_data.npy and num_class_label.npy are consist of 5000 handwritten numbers from [the MNIST database](http://yann.lecun.com/exdb/mnist/).  
 
 ```python
 from ClassificationNeuralNetwork import NeuralNetwork
 
-nn = NeuralNetwork([784, 50, 10], 0.1, 'num_class_data.npy', 'num_class_label.npy', [60., 20., 20.])
+nn = NeuralNetwork([784, 50, 10], 0.1, 'num_class_data.npy', 'num_class_label.npy')
 
 nn.test()
 nn.train(1000, 200)
