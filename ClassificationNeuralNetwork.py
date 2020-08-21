@@ -320,7 +320,7 @@ class NeuralNetwork:
 
     def test(self):
         """
-        Tests the neural network with current theta,
+        Tests the neural network with current theta on the test partition,
         and prints the percent of correct predictions.
 
         :return: None
