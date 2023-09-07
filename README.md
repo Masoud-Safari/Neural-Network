@@ -38,6 +38,6 @@ accuracy:  74.7 %
 
 ---
 ### How To Use:
-You need to install numpy and scipy. :grimacing: really?  
+You need to install numpy and scipy. 
 The input files should have been saved in numpy format.  
 Both data and labels should have two dimensions, and each training example should be one row.  
